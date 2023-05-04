@@ -7,6 +7,11 @@ if (localStorage.getItem('tasks')) {
 function saveTasks() {
   localStorage.setItem('tasks', JSON.stringify(tasks));
 }
+function updateIndexes() {
+  for (let i = 0; i < tasks.length; i += 1) {
+    tasks[i].index = i;
+  }
+}
 function addTask(description) {
   const task = {
     description,
@@ -14,12 +19,8 @@ function addTask(description) {
     index: tasks.length,
   };
   tasks.push(task);
+  updateIndexes();
   saveTasks();
-}
-function updateIndexes() {
-  for (let i = 0; i < tasks.length; i += 1) {
-    tasks[i].index = i;
-  }
 }
 
 function deleteTask(index) {
