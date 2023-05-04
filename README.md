@@ -49,12 +49,11 @@ This project built with the help of HTML and JavaScript.
 
 - **[Web pack]**
 - **[Dynamic Html]**
+- **[Add_Tasks]**
+- **[Remove_Tasks]**
+- **[Store_Tasks]**
+- **[Edit_Tasks]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 **This project is part of a training series to highlight the need for proper documentation, best practices, and writing clean codes with html, css and Javascript.**
