@@ -33,12 +33,12 @@ h1 {
 }
 
 .container {
-  width: 560px;
   margin: 0 auto;
+  padding-top: 1%;
+  width: 40rem;
   background-color: #fff;
   box-shadow: 0 0 10px #000;
   position: relative;
-  height: 20rem;
 }
 
 .to-do-title {
@@ -159,12 +159,30 @@ footer {
   bottom: 10px;
   left: 30%;
   right: 30%;
+  color: whitesmoke;
 }
 
 .taskdesc {
-  width: 13rem;
+  width: 110rem;
 }
 
 .bi-three-dots-vertical {
   margin-left: 230px;
+}
+
+.visible {
+  display: inline-block;
+}
+
+.selected {
+  background-color: #f0f0f0;
+}
+
+.selected:active {
+  background-color: black;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  color: #ccc;
 }
