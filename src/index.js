@@ -19,6 +19,7 @@ function addTask(description) {
     completed: false,
     index: tasks.length,
   };
+  console.log(task.index)
   tasks.push(task);
   updateIndexes();
   saveTasks();
@@ -50,7 +51,7 @@ function displayTasks() {
     const checkbox = listItem.querySelector('input[type="checkbox"]');
     checkbox.addEventListener('change', () => {
       task.completed = checkbox.checked;
-      updateStatus(index, checkbox.checked);
+      updateStatus(task.index, checkbox.checked);
       saveTasks();
       displayTasks();
     });
