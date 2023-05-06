@@ -19,7 +19,6 @@ function addTask(description) {
     completed: false,
     index: tasks.length,
   };
-  console.log(task.index)
   tasks.push(task);
   updateIndexes();
   saveTasks();
