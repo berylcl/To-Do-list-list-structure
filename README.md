@@ -1,5 +1,5 @@
 # To-Do-list-list-structure
-
+This To-Do List project is a simple and intuitive task management tool that allows users to easily create, view, and delete tasks, with the ability to mark tasks as complete and filter tasks by status.
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
